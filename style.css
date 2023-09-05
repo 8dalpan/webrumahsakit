@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&family=Noto+Kufi+Arabic:wght@100&display=swap");
+
+body {
+  background-image: url(img/team-doctors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar-brand {
+  font-family: "Cairo", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-inner {
+  text-align: center;
+}
+.carousel-inner h1 {
+  text-shadow: 2px 2px 2px white;
+}
+.carousel-inner p {
+  text-shadow: 1px 1px 1px black;
+}
+.carousel-inner img {
+  height: 500px;
+  background-size: cover;
+}
+
+.carousel-inner .btn {
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 40px;
+}
